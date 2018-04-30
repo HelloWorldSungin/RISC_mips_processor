@@ -1,0 +1,37 @@
+module ALU_tb();
+reg [15:0] In1;
+reg [15:0] In2;
+reg clk, zero;
+reg [2:0] ALU_control;
+wire [15:0] ALUout;
+ALU DUT(In1, In2, ALU_control, zero, ALUout);
+
+
+always begin
+  #5 clk = ~clk;
+end
+
+initial begin
+  clk <= 0;
+  In1 = 16'b0101; //5
+  In2 = 16'b1010; //10
+  ALU_control = 3'b000; //ADD   ALUout = 15;
+  #20
+  ALU_control = 3'b001; //SUB    ALUout = -5
+  #20
+  In2 = 16'b0001; //11
+  ALU_control = 3'b010; //NOT   ALUout = 1010 = 10
+  #20
+  ALU_control = 3'b011; //Shift Left  ALUout = 1010  = 10
+  #20
+  ALU_control = 3'b100; //Shift Right   ALUout = 0101 = 5
+  #20
+  ALU_control = 3'b101; //AND   ALUout = 0000 = 0
+  #20
+  ALU_control = 3'b110; //OR   ALUout = 1111 = 16
+  #20
+  ALU_control = 3'b111; //SLT ALUout = 1
+  $stop;
+end
+
+endmodule

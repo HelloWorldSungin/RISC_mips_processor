@@ -1,0 +1,59 @@
+X:/ece154B/RISC/src/register_file_tb.v {1 {vlog -work work -vopt X:/ece154B/RISC/src/register_file_tb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module reg_file_tb
+
+Top level modules:
+	reg_file_tb
+
+} {} {}} X:/ece154B/RISC/src/reg_file.v {1 {vlog -work work -vopt X:/ece154B/RISC/src/reg_file.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} X:/ece154B/RISC/src/memory.v {1 {vlog -work work -vopt X:/ece154B/RISC/src/memory.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module inst_memory
+-- Compiling module data_memory
+
+Top level modules:
+	inst_memory
+	data_memory
+
+} {} {}} X:/ece154B/RISC/src/ALU.v {1 {vlog -work work -vopt X:/ece154B/RISC/src/ALU.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} X:/ece154B/RISC/src/datapath.v {1 {vlog -work work -vopt X:/ece154B/RISC/src/datapath.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} X:/ece154B/RISC/src/ALU_tb.v {1 {vlog -work work -vopt X:/ece154B/RISC/src/ALU_tb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} X:/ece154B/RISC/src/data_memory_tb.v {1 {vlog -work work -vopt X:/ece154B/RISC/src/data_memory_tb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module data_memory_tb
+
+Top level modules:
+	data_memory_tb
+
+} {} {}} X:/ece154B/RISC/src/instruction_memory_tb.v {1 {vlog -work work -vopt X:/ece154B/RISC/src/instruction_memory_tb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module inst_memory_tb
+
+Top level modules:
+	inst_memory_tb
+
+} {} {}}
